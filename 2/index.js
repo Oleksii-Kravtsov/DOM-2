@@ -1,7 +1,8 @@
 h1 = document.querySelector("h1")
 
-function alert(){
+function alertUser(){
     h1.textContent = "Hey! I told you not to hover over me!";
+    alert("!ALERT!")
     changeBackgroundColor()
 }
 
